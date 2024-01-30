@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Dom.css">
+</head>
+
+<body>
+
+    <div class="contaner">
+        <div class="ESS">
+            <img src="img1.jpg" alt="item1" width="100" height="150">
+            <button type="button" onclick="removecart(event)"> Remove</button>
+            
+            <div class="quantité">
+                <button onclick="decreaseQuntity(event)">-</button>
+                <span class="itemQuntity(this)">1</span>
+                <button onclick="increment(event)">+</button>
+            </div>
+            <h3> 90</h3>
+
+        </div>
+        <div class="ESS">
+            <img src="img2.webp" alt="item2" width="100" height="150">
+            <button type="button"onclick="removecart(event)"> Remove</button>
+            <div class="quantité">
+                <button onclick="decreaseQuntity(event)">-</button>
+                <span class="itemQuntity(this)">1</span>
+                <button onclick="increment(event)">+</button>
+            </div>
+            <h3>90</h3>
+        </div>
+    </div>
+
+
+
+    <button type="button">Achat</button>
+
+    <script src="Dom.js"></script>
+</body>
+
+</html>
